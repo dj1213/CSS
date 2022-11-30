@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+.A
+{
+height: 500px;
+width: 100%;
+background-color: lightskyblue;
+}
+
+.a
+{margin-left: 20%;
+margin-top: 20%;
+height: 300px;
+width: 300px;
+border: solid 5px black;
+border-top-left-radius: 100px;
+border-bottom-right-radius: 100px;
+}
+
+.a
+{   
+animation-name: svg;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+.C
+{
+stroke-width:solid 5px green;
+animation-name: circle;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes svg
+{
+  0% {transform:rotate(0%);background-color: tomato; }
+  20% {transform:rotate(0%);background-color:darkorange; }
+  40% {transform:rotate(0%);background-color:lime; }
+  60% {transform:rotate(0%);background-color:darkred; }
+100% {transform:rotate(360deg);background-color: teal;}
+}
+@keyframes circle
+{
+  0% {fill: teal; }
+  20% {fill:darkred; }
+  40% {fill:lime; }
+  60% {fill:darkorange; }
+100% {fill: tomato;}
+}
+
+
+</style>
+</head>
+<body>
+    <div class="class=A">
+    <svg class="a">
+        <circle cx="150" cy="150" r="140" fill="yellow" stroke="green" class="C"> 
+
+    </svg>
+    </div>
+
+     </div>
+</body>
+</html>
