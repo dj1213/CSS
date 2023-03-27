@@ -1,0 +1,112 @@
+*
+{
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+
+.nav
+{
+    width: 100%;
+    color: white;
+    background-color: rgb(58, 95, 40);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.one .a1 li
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+}
+.a1 li a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 8px;
+}
+.one .a1{
+    display: inline-flex;
+    padding: 2px;
+}
+
+.two h2{
+    color:white;
+    font-size: 30px;
+}
+.three .c1
+{
+    display: inline-flex;
+}
+.three .c1 li
+{
+    list-style: none;
+}
+.three .c1 li a 
+{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: wheat;
+}
+
+
+/* main content */
+
+.main
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.sidebar
+{
+    
+    font-size: 15px;
+    text-align: center;
+    flex: 0 0 20%;
+}
+.sidebar .m1 li
+{
+    padding: 5px;
+}
+.sidebar .m1 li a
+{
+    text-decoration: none;
+display: block;}
+
+
+
+.fullbox
+{
+
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.box 
+{
+    flex-basis:  32%;
+    max-width: 370px;
+    padding: 10px;
+}
+.box .box1 img
+
+{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.footer
+{
+    background-color: rgb(64, 100, 47);
+    color: wheat;
+    padding: 10px;
+    text-align: center;
+}

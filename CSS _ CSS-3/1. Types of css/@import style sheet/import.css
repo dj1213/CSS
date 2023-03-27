@@ -1,0 +1,24 @@
+.main
+{
+height: 200px;
+width:100%;
+background-color:darkorange;
+}
+
+.a
+{
+height: 100px;
+width: 40%;
+background-color: tomato;
+margin-left: 10%;    
+}
+
+
+.b
+{
+height: 100px;
+width: 40%;
+background-color:teal;
+margin-left: 5%;    
+
+}

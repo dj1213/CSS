@@ -1,0 +1,80 @@
+@media screen and (min-width:601px) {
+  
+
+*
+{
+box-sizing: border-box;
+margin: 0px;
+}
+
+.box1
+{
+background-color: tomato;
+text-align: center;
+height: 100px;
+width: 100%;
+line-height: 80px;
+}
+
+.b1 li
+{
+  display: inline-block;
+}
+
+.b1 li a
+{
+    text-decoration: none;
+  display:block;
+  padding: 15px  15px;
+}
+
+.box2
+{
+height: 50px;
+width: 100%;
+background-color: rgb(227, 75, 75);    
+}
+
+
+.box3
+{display: flex;
+max-height: 650px;
+width: 100%;
+}
+
+.para
+{
+width: 60%;
+background-color: turquoise;
+}
+
+.sidebar
+{
+width: 40%;
+background-color: rgb(186, 159, 107);}
+
+.c1 li
+{
+list-style: none;
+padding: 5px 20px;
+
+}
+
+.c1 li a
+{
+    text-decoration: none;
+
+}
+
+.para2
+{
+  display: none;
+}
+.footer
+{
+    text-align: center;
+height: 50px;
+line-height: 40px;
+background-color: steelblue;    
+}
+}
